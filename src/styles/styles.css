@@ -1,0 +1,45 @@
+/* src/styles/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  input:focus {
+    border-color: #6b46c1;
+    outline: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* styles.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
